@@ -1,0 +1,156 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml:2:1-17:12
+INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml:2:1-17:12
+INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml:2:1-17:12
+INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml:2:1-17:12
+MERGED from [:shared] /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/shared/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.2.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/279ba9c7ddf8acd120241f7fb4a52404/material-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/fc72ce8207249fd587b7b45bc2ac553e/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/c7f46b1e3c0cc6ae57f3cf01b6a25bfc/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/f571989b13075fab902c7f4c3d8dc561/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/282659f33df58042f237b35c198acecc/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/713748620bfddcb0f5f9b137e30cfacf/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/217116f6de5fe0ff222835fd73070e23/appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/b82632131ad2f5a87c50ddf8ada97f7f/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/f0f101c7e24b381b7cf5de832e3404d8/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/abab03d0c3fcc893ecbfe0c7c951fdd7/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/f30fa28d1a4bda31890031afceda88a4/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/105ec56137b2ec1e0cbae4cc51ec8c8e/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/60e37d88375fb8f4d6e6df4307ff0637/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/a323007d189ef72c38d87d45d917cc00/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/286d982161186fa0eae7e764942e5c1f/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/0dc38da660b1f022328f172544675cf8/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/8a46a1443ec99d7fc3b82540556c4a50/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/15acaecb9ff8da524f9b964026215eee/core-1.3.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/a90f7294303705b176caa1394c9a39dc/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/61ebb242101e352a08a0573e82e98373/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/a0a0b173c75339c8bb85f4711719c9f7/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/afc7aa4f008b2f27127b987b5dfc5e3d/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/0addc9baa62a4d8c24c17bc7b504ba96/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/89c6cbe84ffa0917c2cb78bfd88f6d3f/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/9b66aeec75f22367e955068a385f6e77/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/e9f94e7bd2553f8769bdcbfc83228671/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/649f764dcc0be0e803fbc8f43f0f3ea4/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/303ec7c83a0d2aa5062fddecb9ae2246/annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml:2:1-17:12
+INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml:2:1-17:12
+INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml:2:1-17:12
+	package
+		ADDED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml:2:70-127
+		INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml
+		INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml
+		ADDED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml:2:1-17:12
+		INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml
+		ADDED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml:2:1-17:12
+		INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml:4:5-15:19
+MERGED from [com.google.android.material:material:1.2.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/279ba9c7ddf8acd120241f7fb4a52404/material-1.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/279ba9c7ddf8acd120241f7fb4a52404/material-1.2.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/c7f46b1e3c0cc6ae57f3cf01b6a25bfc/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/c7f46b1e3c0cc6ae57f3cf01b6a25bfc/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.3.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/15acaecb9ff8da524f9b964026215eee/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/15acaecb9ff8da524f9b964026215eee/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/61ebb242101e352a08a0573e82e98373/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/61ebb242101e352a08a0573e82e98373/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/15acaecb9ff8da524f9b964026215eee/core-1.3.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml:6:13-39
+	android:allowBackup
+		ADDED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml:5:13-40
+	android:theme
+		ADDED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml:7:13-44
+activity#com.tsquaredapps.liquidmutliplatform.androidApp.MainActivity
+ADDED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml:8:9-14:20
+	android:name
+		ADDED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml:8:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml:9:13-13:29
+action#android.intent.action.MAIN
+ADDED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml:10:17-68
+	android:name
+		ADDED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml:10:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml:12:17-76
+	android:name
+		ADDED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml:12:27-74
+uses-sdk
+INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml
+INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml
+MERGED from [:shared] /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/shared/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:shared] /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/shared/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.2.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/279ba9c7ddf8acd120241f7fb4a52404/material-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/279ba9c7ddf8acd120241f7fb4a52404/material-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/fc72ce8207249fd587b7b45bc2ac553e/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/fc72ce8207249fd587b7b45bc2ac553e/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/c7f46b1e3c0cc6ae57f3cf01b6a25bfc/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/c7f46b1e3c0cc6ae57f3cf01b6a25bfc/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/f571989b13075fab902c7f4c3d8dc561/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/f571989b13075fab902c7f4c3d8dc561/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/282659f33df58042f237b35c198acecc/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/282659f33df58042f237b35c198acecc/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/713748620bfddcb0f5f9b137e30cfacf/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/713748620bfddcb0f5f9b137e30cfacf/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/217116f6de5fe0ff222835fd73070e23/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/217116f6de5fe0ff222835fd73070e23/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/b82632131ad2f5a87c50ddf8ada97f7f/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/b82632131ad2f5a87c50ddf8ada97f7f/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/f0f101c7e24b381b7cf5de832e3404d8/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/f0f101c7e24b381b7cf5de832e3404d8/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/abab03d0c3fcc893ecbfe0c7c951fdd7/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/abab03d0c3fcc893ecbfe0c7c951fdd7/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/f30fa28d1a4bda31890031afceda88a4/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/f30fa28d1a4bda31890031afceda88a4/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/105ec56137b2ec1e0cbae4cc51ec8c8e/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/105ec56137b2ec1e0cbae4cc51ec8c8e/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/60e37d88375fb8f4d6e6df4307ff0637/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/60e37d88375fb8f4d6e6df4307ff0637/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/a323007d189ef72c38d87d45d917cc00/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/a323007d189ef72c38d87d45d917cc00/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/286d982161186fa0eae7e764942e5c1f/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/286d982161186fa0eae7e764942e5c1f/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/0dc38da660b1f022328f172544675cf8/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/0dc38da660b1f022328f172544675cf8/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/8a46a1443ec99d7fc3b82540556c4a50/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/8a46a1443ec99d7fc3b82540556c4a50/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/15acaecb9ff8da524f9b964026215eee/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/15acaecb9ff8da524f9b964026215eee/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/a90f7294303705b176caa1394c9a39dc/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/a90f7294303705b176caa1394c9a39dc/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/61ebb242101e352a08a0573e82e98373/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/61ebb242101e352a08a0573e82e98373/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/a0a0b173c75339c8bb85f4711719c9f7/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/a0a0b173c75339c8bb85f4711719c9f7/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/afc7aa4f008b2f27127b987b5dfc5e3d/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/afc7aa4f008b2f27127b987b5dfc5e3d/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/0addc9baa62a4d8c24c17bc7b504ba96/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/0addc9baa62a4d8c24c17bc7b504ba96/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/89c6cbe84ffa0917c2cb78bfd88f6d3f/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/89c6cbe84ffa0917c2cb78bfd88f6d3f/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/9b66aeec75f22367e955068a385f6e77/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/9b66aeec75f22367e955068a385f6e77/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/e9f94e7bd2553f8769bdcbfc83228671/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/e9f94e7bd2553f8769bdcbfc83228671/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/649f764dcc0be0e803fbc8f43f0f3ea4/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/649f764dcc0be0e803fbc8f43f0f3ea4/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/303ec7c83a0d2aa5062fddecb9ae2246/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/tylerturnbull/.gradle/caches/transforms-2/files-2.1/303ec7c83a0d2aa5062fddecb9ae2246/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml
+INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml
+		ADDED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml
+		INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml
+		ADDED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml
+		INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/androidApp/src/main/AndroidManifest.xml

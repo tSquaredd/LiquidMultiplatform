@@ -1,0 +1,2 @@
+com/tsquaredapps/liquidmutliplatform/android/BuildConfig.java
+ com.tsquaredapps.liquidmutliplatform.android.BuildConfig

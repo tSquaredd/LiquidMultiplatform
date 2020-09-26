@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/shared/src/androidMain/AndroidManifest.xml:2:1-126
+INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/shared/src/androidMain/AndroidManifest.xml:2:1-126
+INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/shared/src/androidMain/AndroidManifest.xml:2:1-126
+INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/shared/src/androidMain/AndroidManifest.xml:2:1-126
+INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/shared/src/androidMain/AndroidManifest.xml:2:1-126
+INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/shared/src/androidMain/AndroidManifest.xml:2:1-126
+INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/shared/src/androidMain/AndroidManifest.xml:2:1-126
+	package
+		ADDED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/shared/src/androidMain/AndroidManifest.xml:2:70-124
+		INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/shared/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/shared/src/androidMain/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/shared/src/androidMain/AndroidManifest.xml
+		ADDED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/shared/src/androidMain/AndroidManifest.xml:2:1-126
+		INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/shared/src/androidMain/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/shared/src/androidMain/AndroidManifest.xml
+		ADDED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/shared/src/androidMain/AndroidManifest.xml:2:1-126
+		INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/shared/src/androidMain/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/shared/src/androidMain/AndroidManifest.xml:2:11-69
+uses-sdk
+INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/shared/src/androidMain/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/shared/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/shared/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/shared/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/shared/src/androidMain/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/shared/src/androidMain/AndroidManifest.xml
+		ADDED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/shared/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/shared/src/androidMain/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/shared/src/androidMain/AndroidManifest.xml
+		ADDED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/shared/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/tylerturnbull/StudioProjects/LiquidMutliplatform/shared/src/androidMain/AndroidManifest.xml
