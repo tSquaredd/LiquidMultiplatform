@@ -1,0 +1,4 @@
+<resources>
+    <string name="welcome_message">Welcome!\nLiquid is an app focused on keeping you hydrated!</string>
+    <string name="lets_get_started">Lets Get Started!</string>
+</resources>
