@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Uxm-o5-biR">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Welcome View Controller-->
+        <scene sceneID="vUV-kA-zKJ">
+            <objects>
+                <viewController id="Uxm-o5-biR" customClass="WelcomeViewController" customModule="iosApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4rT-YM-gzX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="liquid-medium" translatesAutoresizingMaskIntoConstraints="NO" id="z66-6G-pnV">
+                                <rect key="frame" x="164" y="84" width="86" height="124"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" image="waves" translatesAutoresizingMaskIntoConstraints="NO" id="vCm-YV-7nD">
+                                <rect key="frame" x="0.0" y="396" width="414" height="394"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G6h-Wg-u7u" userLabel="WelcomeLabel">
+                                <rect key="frame" x="32" y="224" width="350" height="172"/>
+                                <string key="text">Welcome!
+Liquid is an app that is focused on keeping you hydrated!</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" name="text-white"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nvz-Cw-pZK" userLabel="GetStartedButtonContainer">
+                                <rect key="frame" x="32" y="790" width="350" height="56"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="sun-sD-l8a"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="E2Z-PE-H8c"/>
+                        <color key="backgroundColor" name="background"/>
+                        <constraints>
+                            <constraint firstItem="Nvz-Cw-pZK" firstAttribute="top" secondItem="vCm-YV-7nD" secondAttribute="bottom" id="1Gn-h3-4CN"/>
+                            <constraint firstItem="E2Z-PE-H8c" firstAttribute="trailing" secondItem="G6h-Wg-u7u" secondAttribute="trailing" constant="32" id="3Ki-lH-r4e"/>
+                            <constraint firstItem="E2Z-PE-H8c" firstAttribute="trailing" secondItem="vCm-YV-7nD" secondAttribute="trailing" id="5Ub-0y-cQ1"/>
+                            <constraint firstItem="Nvz-Cw-pZK" firstAttribute="leading" secondItem="E2Z-PE-H8c" secondAttribute="leading" constant="32" id="8yf-pe-Zme"/>
+                            <constraint firstItem="z66-6G-pnV" firstAttribute="top" secondItem="E2Z-PE-H8c" secondAttribute="top" constant="40" id="LCG-wK-7sS"/>
+                            <constraint firstItem="E2Z-PE-H8c" firstAttribute="trailing" secondItem="Nvz-Cw-pZK" secondAttribute="trailing" constant="32" id="NfI-zl-eeq"/>
+                            <constraint firstItem="G6h-Wg-u7u" firstAttribute="top" secondItem="z66-6G-pnV" secondAttribute="bottom" constant="16" id="Who-Uw-hXI"/>
+                            <constraint firstItem="vCm-YV-7nD" firstAttribute="top" secondItem="G6h-Wg-u7u" secondAttribute="bottom" id="Zce-YH-dHi"/>
+                            <constraint firstItem="vCm-YV-7nD" firstAttribute="leading" secondItem="E2Z-PE-H8c" secondAttribute="leading" id="dlT-nm-mee"/>
+                            <constraint firstItem="vCm-YV-7nD" firstAttribute="top" secondItem="G6h-Wg-u7u" secondAttribute="bottom" id="gw2-Iw-LpA"/>
+                            <constraint firstItem="E2Z-PE-H8c" firstAttribute="bottom" secondItem="Nvz-Cw-pZK" secondAttribute="bottom" constant="16" id="kIh-r7-KgG"/>
+                            <constraint firstItem="z66-6G-pnV" firstAttribute="centerX" secondItem="4rT-YM-gzX" secondAttribute="centerX" id="l1a-Hj-3ko"/>
+                            <constraint firstItem="G6h-Wg-u7u" firstAttribute="leading" secondItem="E2Z-PE-H8c" secondAttribute="leading" constant="32" id="qml-d7-jrk"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="getStartedButtonContainer" destination="Nvz-Cw-pZK" id="ZCQ-tg-ssu"/>
+                        <outlet property="welcomeLabel" destination="G6h-Wg-u7u" id="81i-qQ-mWI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ekh-DI-A9s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-71.014492753623188" y="22.767857142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="liquid-medium" width="86" height="124"/>
+        <image name="waves" width="414" height="235"/>
+        <namedColor name="background">
+            <color red="0.0" green="0.062745098039215685" blue="0.20784313725490197" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="text-white">
+            <color red="0.87058823529411766" green="0.87058823529411766" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

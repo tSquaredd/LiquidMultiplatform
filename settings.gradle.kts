@@ -18,4 +18,4 @@ rootProject.name = "LiquidMutliplatform"
 
 include(":androidApp")
 include(":shared")
-
+enableFeaturePreview("GRADLE_METADATA")
