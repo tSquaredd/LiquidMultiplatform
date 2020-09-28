@@ -4,6 +4,7 @@ plugins {
     kotlin("multiplatform")
     id("com.android.library")
     id("kotlin-android-extensions")
+    id("dev.icerock.mobile.multiplatform-resources")
 }
 group = "com.tsquaredapps.liquidmutliplatform"
 version = "1.0-SNAPSHOT"
@@ -65,6 +66,19 @@ android {
         }
     }
 }
+
+dependencies {
+    commonMainApi("dev.icerock.moko:resources:0.13.1")
+    commonMainImplementation("dev.icerock.moko:parcelize:0.4.0")
+    commonMainImplementation("dev.icerock.moko:graphics:0.4.0")
+}
+
+multiplatformResources {
+    multiplatformResourcesPackage = "com.tsquaredapps.liquidmutliplatform" // required
+    iosBaseLocalizationRegion = "en" // optional, default "en"
+    multiplatformResourcesSourceSet = "commonMain"  // optional, default "commonMain"
+}
+
 val packForXcode by tasks.creating(Sync::class) {
     group = "build"
     val mode = System.getenv("CONFIGURATION") ?: "DEBUG"
