@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <resources>
+    <!-- region common -->
+    <string name="pounds_abbreviation">lbs</string>
+    <string name="ounce_abbreviation">oz</string>
+    <string name="milliliter_abbreviation">ml</string>
+    <!-- endregion -->
+    <!-- region welcome screen -->
     <string name="welcome_message">Welcome!\nLiquid is an app focused on keeping you hydrated!</string>
     <string name="lets_get_started">Lets Get Started!</string>
+    <!-- endregion -->
+    <!-- region user information screen -->
+    <string name="create_profile">Create Profile</string>
+    <string name="weight_error_message">Please enter your weight</string>
+    <string name="user_information_screen_description">Hello! Please Answer a few questions to help
+        us determine the amount of liquids you should be consuming to stay hydrated!
+    </string>
+    <string name="weight_prompt">What is your weight?</string>
+    <string name="unit_prompt">What is your desired unit of measurement?</string>
+    <string name="continue_button_text">Continue</string>
+    <string name="weight_input_hint">lbs</string>
+    <!-- endregion -->
 </resources>
