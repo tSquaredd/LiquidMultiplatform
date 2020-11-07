@@ -3,8 +3,11 @@ plugins {
     kotlin("android")
     id("kotlin-android-extensions")
     id("kotlin-android")
+    id("kotlin-kapt")
+    id("androidx.navigation.safeargs.kotlin")
+    id("dagger.hilt.android.plugin")
 }
-group = "com.tsquaredapps.liquidmutliplatform"
+group = "com.tsquaredapps.liquidmultiplatform"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -13,26 +16,14 @@ repositories {
     jcenter()
     mavenCentral()
 }
-dependencies {
-    implementation(project(":shared"))
-    implementation("com.google.android.material:material:1.2.1")
-    implementation("androidx.appcompat:appcompat:1.2.0")
-    implementation("androidx.constraintlayout:constraintlayout:1.1.3")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:${rootProject.extra["kotlin_version"]}")
-    implementation("androidx.legacy:legacy-support-v4:1.0.0")
 
-    val navVersion = "2.3.0"
-    implementation("androidx.navigation:navigation-fragment-ktx:$navVersion")
-    implementation("androidx.navigation:navigation-ui-ktx:$navVersion")
-    implementation("androidx.navigation:navigation-runtime-ktx:$navVersion")
-    androidTestImplementation("androidx.navigation:navigation-testing:$navVersion")
-}
 android {
-    compileSdkVersion(29)
+    compileSdkVersion(Versions.compileSdk)
+    buildToolsVersion = Versions.buildToolsVersion
     defaultConfig {
-        applicationId = "com.tsquaredapps.liquidmutliplatform.androidApp"
-        minSdkVersion(24)
-        targetSdkVersion(29)
+        applicationId = "com.tsquaredapps.liquidmultiplatform.androidApp"
+        minSdkVersion(Versions.minSdk)
+        targetSdkVersion(Versions.targetSdk)
         versionCode = 1
         versionName = "1.0"
     }
@@ -45,4 +36,33 @@ android {
     buildFeatures {
         viewBinding = true
     }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation(kotlin("stdlib-jdk7", org.jetbrains.kotlin.config.KotlinCompilerVersion.VERSION))
+    implementation(project(":shared"))
+    implementation(Deps.Android.Material.android)
+    implementation(Deps.Android.AppCompat.core)
+    implementation(Deps.Android.ConstraintLayout.core)
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:${Versions.kotlin}")
+    implementation("androidx.legacy:legacy-support-v4:1.0.0")
+
+    // Navigation
+    implementation(Deps.Android.Navigation.fragment)
+    implementation(Deps.Android.Navigation.ui)
+    implementation(Deps.Android.Navigation.runtime)
+    androidTestImplementation(Deps.Android.Navigation.testing)
+
+
+    implementation(Deps.Android.Hilt.core)
+    kapt(Deps.Android.Hilt.compiler)
 }

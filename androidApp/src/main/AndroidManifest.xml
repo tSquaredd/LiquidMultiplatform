@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.tsquaredapps.liquidmutliplatform.androidApp">
+    package="com.tsquaredapps.liquidmultiplatform.androidApp">
 
     <application
+        android:name="com.tsquaredapps.liquidmultiplatform.androidApp.LiquidAndroidApplication"
         android:allowBackup="false"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".setup.SetupActivity"
+        <activity
+            android:name="com.tsquaredapps.liquidmultiplatform.androidApp.setup.SetupActivity"
             android:theme="@style/AppThemeNoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

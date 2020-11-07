@@ -6,7 +6,7 @@ plugins {
     id("kotlin-android-extensions")
     id("dev.icerock.mobile.multiplatform-resources")
 }
-group = "com.tsquaredapps.liquidmutliplatform"
+group = "com.tsquaredapps.liquidmultiplatform"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -27,36 +27,57 @@ kotlin {
     sourceSets {
         val commonMain by getting {
             dependencies {
-                implementation("com.russhwolf:multiplatform-settings:0.6.2")
+                implementation(Deps.Coroutines.common)
+                implementation(Deps.Coroutines.common)
+                implementation(Deps.Koin.core)
             }
         }
         val commonTest by getting {
             dependencies {
-                implementation(kotlin("test-common"))
-                implementation(kotlin("test-annotations-common"))
+                implementation(Deps.KotlinTest.common)
+                implementation(Deps.KotlinTest.annotations)
+                implementation(Deps.Koin.test)
+                implementation(Deps.JUnit.core)
+                runtimeOnly(Deps.JUnit.engine)
+                implementation(Deps.JUnit.params)
+                implementation(Deps.MockK.core)
             }
         }
         val androidMain by getting {
             dependencies {
-                implementation("com.google.android.material:material:1.2.0")
+                implementation(kotlin("stdlib", Versions.kotlin))
+                implementation(Deps.Coroutines.android)
             }
         }
         val androidTest by getting {
             dependencies {
-                implementation(kotlin("test-junit"))
-                implementation("junit:junit:4.12")
+                implementation(Deps.KotlinTest.jvm)
+                implementation(Deps.KotlinTest.junit)
+                implementation(Deps.AndroidXTest.core)
+                implementation(Deps.AndroidXTest.junit)
+                implementation(Deps.AndroidXTest.runner)
+                implementation(Deps.AndroidXTest.rules)
+                implementation(Deps.Coroutines.test)
             }
         }
-        val iosMain by getting
-        val iosTest by getting
+        val iosMain by getting {
+            dependencies {
+                implementation(Deps.Coroutines.common) {
+                    version {
+                        strictly(Versions.coroutines)
+                    }
+                }
+                implementation(Deps.Koin.core)
+            }
+        }
     }
 }
 android {
-    compileSdkVersion(29)
+    compileSdkVersion(Versions.compileSdk)
     sourceSets["main"].manifest.srcFile("src/androidMain/AndroidManifest.xml")
     defaultConfig {
-        minSdkVersion(24)
-        targetSdkVersion(29)
+        minSdkVersion(Versions.minSdk)
+        targetSdkVersion(Versions.targetSdk)
         versionCode = 1
         versionName = "1.0"
     }
@@ -68,13 +89,13 @@ android {
 }
 
 dependencies {
-    commonMainApi("dev.icerock.moko:resources:0.13.1")
-    commonMainImplementation("dev.icerock.moko:parcelize:0.4.0")
-    commonMainImplementation("dev.icerock.moko:graphics:0.4.0")
+    commonMainApi(Deps.Moko.core)
+    commonMainImplementation(Deps.Moko.parcelize)
+    commonMainImplementation(Deps.Moko.graphics)
 }
 
 multiplatformResources {
-    multiplatformResourcesPackage = "com.tsquaredapps.liquidmutliplatform" // required
+    multiplatformResourcesPackage = "com.tsquaredapps.liquidmultiplatform" // required
     iosBaseLocalizationRegion = "en" // optional, default "en"
     multiplatformResourcesSourceSet = "commonMain"  // optional, default "commonMain"
 }
@@ -84,7 +105,8 @@ val packForXcode by tasks.creating(Sync::class) {
     val mode = System.getenv("CONFIGURATION") ?: "DEBUG"
     val sdkName = System.getenv("SDK_NAME") ?: "iphonesimulator"
     val targetName = "ios" + if (sdkName.startsWith("iphoneos")) "Arm64" else "X64"
-    val framework = kotlin.targets.getByName<KotlinNativeTarget>(targetName).binaries.getFramework(mode)
+    val framework =
+        kotlin.targets.getByName<KotlinNativeTarget>(targetName).binaries.getFramework(mode)
     inputs.property("mode", mode)
     dependsOn(framework.linkTask)
     val targetDir = File(buildDir, "xcode-frameworks")
